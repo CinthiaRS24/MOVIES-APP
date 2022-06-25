@@ -176,7 +176,7 @@ Los siguiente que haremos en nuestro componente `Buscador.js` es agragar la acci
 
 Una vez que hacemos el dispatch, ya tenemos nuestro state en nuestro Store, en `mapStateToProps` ya traemos el state que updeteamos en nuestro form. Ahora tenemos un array de objetos con las peliculas que nos trajo nuestra request a la API. El siguiente paso seria mapear ese array y hacer un return con el Nombre de la pelicula y un boton el cual tendra un evento de `onClick`. Este evento sera `addMovieFavorite`, que tenemos en nuestra `mapDispatchToProps` para guardar peliculas como Favoritas. Ej:
 
-<div style="text-align:center"><img src="src/img/show-movies.gif"/></div><br>
+
 
  En el caso de `addMovieFavorite` como parametro le pasamos un object con el titulo de la Pelicula y su ID, que mas adelante utilizaremos en el componente Favorites. Ej:
 
@@ -192,7 +192,7 @@ Hasta ahora tenemos nuestro componente Home, en donde podemos buscar peliculas, 
 
  Este sera un componente de clase, que llame a `mapStateToProps` y `mapDispatchToProps` como hicimos anteriormente. `mapStateToProps` nos traera simplemente `state.movies` y  `mapDispatchToProps` tendra un dispatch para eliminar peliculas de favoritos, que es el que creamos anteriormente llamado `removeMovieFavorite`. Ya tenemos lo que necesitamos para mostrar nuestras pelis favoritas y nuestro evento para eliminarlas. Como hicimos en `Buscador.js`, mapeamos nuestras peliculas, y hacemos un return con el nombre y un boton que tendra el evento para eliminarlas. Ej:
 
-<div style="text-align:center"><img src="src/img/favs-movies.gif"/></div><br>
+
 
 Por ahora nos deberia quedar algo asi,
 
@@ -223,6 +223,6 @@ Llamamos a la funcion `getMovieDetail` y le pasamos nuestro ID todo dentro de nu
 
 Para mejorar la experiencia del usuario, cuando se presione el link para ver el detalle de una película, mostrar un texto o imagen que indique que se está "Cargando" la información, hasta que llegue el response del servidor y recién ahí, mostrar su detalle.
 
-<div style="text-align:center"><img src="src/img/movie-detail.gif"/></div><br>
+
 
 Con esto tendriamos una App integrado con React Redux!
