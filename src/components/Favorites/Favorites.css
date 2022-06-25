@@ -1,3 +1,73 @@
-.cnt {
-    padding-top: 10px;
+.titleFav {
+    text-align: center;
+}
+
+.tvGif {
+    width: 130px;
+    height: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 120px;
+}
+
+.pNotFav {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btnAdd {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    border-radius: 12%;
+    cursor: pointer;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.btnAdd:hover {
+    font-size: 19px;
+    background-color: #fd9b98;
+}
+
+.divCardFav {
+    margin-bottom: 15px;
+}
+
+.first-row {
+    margin-bottom: 5px;
+}
+
+.titleCardFav{
+    color: #5f0801;
+    font-size: 20px;
+    margin-right: 7px;
+}
+
+.btnDeleteFav {
+    cursor: pointer;
+}
+
+.btnDeleteFav:hover {
+    font-size: 15px;
+    background-color: #fd9b98;
+}
+
+.second-row {
+    display: flex;
+    margin-top: 5px;
+}
+
+.imgPlus {
+    width: 17px;
+    height: 17px;
+    margin-top: 2px;
+}
+
+.pPlus {
+    margin-top: 0px;
+    margin-left: 3px;
 }

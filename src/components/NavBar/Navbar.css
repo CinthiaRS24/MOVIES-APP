@@ -15,33 +15,40 @@
     height: 100%;
 }
 
-.list {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    flex-flow: row;
-    align-items: center;
-    height: 100%;
+.titleApp {
+    color: rgb(255, 247, 247);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    -webkit-text-stroke: 0.5px #f0150d;
 }
 
-.list-item {
-    margin: 0;
+.list {
+    margin-right: 10px;
     display: flex;
     height: 100%;
     width: auto;
     align-items: center;
 }
 
-.list-item a {
-    color: white;
-    height: 100%;
-    padding: 16px 10px;
-    border-bottom: 4px solid transparent;
+.list a {
+    text-decoration: none;
 }
 
-.list-item a:hover,
-.list-item a.active {
-    background-color: #808080;
+.list a.active {
+    background-color: #f0150d;
     color: white;
+}
+
+.list a:hover {
+    background-color: #ff5852;
+}
+
+.titleNav {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+    margin-right: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
 }

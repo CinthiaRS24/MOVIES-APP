@@ -4,13 +4,12 @@ const initialState = {
     movieDetail: {}
   };
 
-  export default function rootReducer (state = initialState, action) {
+export default function rootReducer (state = initialState, action) {
     switch(action.type) {
         case "ADD_MOVIE_FAVORITE":
             return {
                 ...state,
                 moviesFavourites: [...state.moviesFavourites, action.payload]
-
             };
         
         case "GET_MOVIES":
@@ -34,5 +33,5 @@ const initialState = {
         default:
             return {...state};
     }
-  }
+}
 
