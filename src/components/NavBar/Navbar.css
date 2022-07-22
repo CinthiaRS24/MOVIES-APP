@@ -64,5 +64,9 @@
     .titleNav {
         font-size: 13px;
     }
+
+    .list {
+        margin-right: 0px;
+    }
     
 }
