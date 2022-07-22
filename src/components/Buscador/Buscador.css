@@ -163,5 +163,28 @@ a {
         margin-top: 0px;
     }
     
+    .divGeneral {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 12px;
+    }
     
+    .titleCard:hover {
+        font-size: 17px;
+    }
+    
+    .btnFav {
+        height: 28px;
+        font-size: 12px;
+    }
+    
+    .btnFav:hover {
+        font-size: 14px;
+        background-color: #fd9b98;
+    }
+
+    .imgPoster {
+        width: 145px;
+        height: 225px;
+    }
+
 }
