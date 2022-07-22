@@ -11,8 +11,10 @@
 }
 
 .secondRowDatil {
+  padding-top: 15px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .secondColumDetail {
@@ -34,4 +36,32 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 17px;
   text-align: justify;
+}
+
+
+
+@media screen and (max-width: 700px) {
+
+  .movie-detail {
+    width: 90%;
+  }
+
+  .titleDetail {
+    font-size: 25px;
+  }
+
+  .posterDetail {
+    width: 200px;
+    height: 350px;
+  }
+
+  .subtitlesDetail {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .subSubTitlesDetail {
+    font-size: 14px;
+    font-weight: lighter;
+  }
 }
