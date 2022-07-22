@@ -7,9 +7,11 @@ const initialState = {
 export default function rootReducer (state = initialState, action) {
     switch(action.type) {
         case "ADD_MOVIE_FAVORITE":
+            const movieFavoriteExist = state.moviesFavourites.find(movie => movie.id === action.payload.id)
             return {
+
                 ...state,
-                moviesFavourites: [...state.moviesFavourites, action.payload]
+                moviesFavourites: movieFavoriteExist? state.moviesFavourites : [...state.moviesFavourites, action.payload]
             };
         
         case "GET_MOVIES":
