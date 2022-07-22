@@ -47,6 +47,7 @@
   }
 
   .titleDetail {
+    margin-top: 25px;
     font-size: 25px;
   }
 
@@ -62,6 +63,6 @@
   
   .subSubTitlesDetail {
     font-size: 14px;
-    font-weight: lighter;
+    font-weight:normal;
   }
 }
