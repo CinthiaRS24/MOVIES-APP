@@ -166,6 +166,7 @@ a {
     .divGeneral {
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 12px;
+        margin-bottom: 20px;
     }
     
     .titleCard:hover {
