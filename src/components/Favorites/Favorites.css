@@ -93,5 +93,29 @@ ul {
     .btnAdd {
         font-size: 16px;
     }
+
+    .divCardFav {
+        margin-left: 15px;
+    }
+
+    .titleCardFav{
+        font-size: 18px;
+    }
     
+    .btnDeleteFav {
+        font-size: 12px;
+    }
+    
+    .btnDeleteFav:hover {
+        font-size: 14px;
+    }
+    
+    .imgPlus {
+        width: 16px;
+        height: 16px;
+    }
+    
+    .pPlus {
+        font-size: 14px;
+    }
 }
