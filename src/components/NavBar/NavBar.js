@@ -14,7 +14,7 @@ export default function NavBar() {
             <nav>
                 <div className="list">
                     <NavLink exact to="/" className="titleNav" >Home</NavLink>
-                    <NavLink to="/favs" className="titleNav" >Favoritas</NavLink>
+                    <NavLink to="/favs" className="titleNav" >Favorites</NavLink>
                 </div>
             </nav>
         </header>
